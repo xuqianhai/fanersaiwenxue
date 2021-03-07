@@ -1,0 +1,18 @@
+<!-- *auth：晚空
+    *QQ：1549072621 -->
+<view class="main">
+    <view class="t">关于我</view>
+    <view class="c">很高兴你来了解我</view>
+    <view class="c">
+        <image src="https://wx.mmifx.com/images/qqheaderimg.jpg" class="headimg" />
+    </view>
+    <view class="c">凡尔赛网课</view>
+    <view class="c">全新的题库缔造者。</view>
+    <view class="c">全心为大学生服务的平台！</view>
+    <view class="c">凡尔赛运营者</view>
+    <view class="c">业务:外卖优惠券、电影优惠券、全网免费电影、免费小说、等等。</view>
+    <view class="c">有需要以上搜索公众号：领券券外卖</view>
+    <view class="c">期待你的到来</view>
+    <view class="c">谢谢使用！</view>
+    <view class="footline"></view>
+</view>

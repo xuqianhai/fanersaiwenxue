@@ -1,0 +1,13 @@
+{
+    "status": 1, //状态，先放着。
+    "msg": {
+        "status": 1,  //开启弹窗
+        "version":1, //弹窗版本
+        "title": "温馨提示", //弹窗标题
+        "content": "小程序已恢复正常使用，全新改版的视觉效果希望您喜欢！" //弹窗内容
+    },
+    "token": "c36f92797a2316d715520c57c7e6c190basdasdas", //搜题系统的token
+    "showad":true,  //展示广告
+    "ad1unit":"adunit-7d76004942b2f5bc", //广告位1 ad_unit
+    "ad2unit":"adunit-9594f68cc580d15f"  //广告位 ad_unit
+}

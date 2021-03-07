@@ -1,0 +1,55 @@
+<view class="page">
+    <view class="main">
+        <view class="header">
+            <view class="userinfo">
+                <block wx:if="{{hasUserInfo}}">
+                    <view class="user_header">
+                        <view class="user_img">
+                            <image src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
+                        </view>
+                        <view class="nickname_box">
+                            <view class="nickname">{{userInfo.nickName}}</view>
+                            <view class="welcome">欢迎您!{{usergender}}</view>
+                        </view>
+                    </view>
+                    <view class="line"></view>
+                    <view class="user_place">
+                        <view class="place">{{userInfo.province}}</view>
+                        <view class="place">{{userInfo.city}}</view>
+                    </view>
+                </block>
+                <view class="login" wx:else>
+                    <button open-type="getUserInfo" bindgetuserinfo="login">登录</button>
+                </view>
+            </view>
+        </view>
+        <view class="lists">
+            <view class="list" hover-class="list_hover" bind:tap="AboutIt">
+                <image class="" src="../../images/aboutit.png" mode="aspectFit"></image>
+                <view class="listtitle">关于小程序</view>
+            </view>
+            <view class="list" hover-class="list_hover" bind:tap="AboutMe">
+                <image class="" src="../../images/aboutme.png" mode="aspectFit"></image>
+                <view class="listtitle">关于开发者</view>
+            </view>
+            <view class="list" hover-class="list_hover" bind:tap="MustSee">
+                <image class="" src="../../images/mustsee.png" mode="aspectFit"></image>
+                <view class="listtitle">使用须知</view>
+            </view>
+            <button open-type="contact" class="contact_btn list">
+                <view class="list" hover-class="list_hover">
+                    <image class="" src="../../images/kefu.png" mode="aspectFit"></image>
+                    <view class="listtitle">联系客服</view>
+                </view>
+            </button>
+            <view class="list" hover-class="list_hover" bind:tap="linkQQ">
+                <image class="" src="../../images/qq.png" mode="aspectFit"></image>
+                <view class="listtitle">加入QQ群</view>
+            </view>
+            <view class="list" hover-class="list_hover" bind:tap="listencut">
+                <image class="" src="../../images/cutpaper.png" mode="aspectFit"></image>
+                <view class="listtitle">{{cutstatus}}剪切版监控</view>
+            </view>
+        </view>
+    </view>
+</view>

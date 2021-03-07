@@ -1,0 +1,63 @@
+<view class="main">
+    <!-- 主体部分 -->
+    <view class="list">
+        <view class="section_box">
+            <view class="section" bindtap="GoElem">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/lqq.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+        <view class="section_box">
+            <view class="section" bindtap="GoDy">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/dy.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+        <view class="section_box">
+            <view class="section" bindtap="GoQmcs">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/qmcs.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+        <view class="section_box">
+            <view class="section" bindtap="GoTxbzg">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/txbzg.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+        <view class="section_box">
+            <view class="section" bindtap="GoQnzsgx">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/qnzsgx.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+        <view class="section_box">
+            <view class="section" bindtap="GoLqmx">
+                <!-- <navigator url="tools/dyqsy/dyqsy"> -->
+                <view class="tools_douyin">
+                    <image src="../../images/lqmx.png" mode="scaleToFill" />
+                </view>
+                <!-- </navigator> -->
+            </view>
+        </view>
+
+
+    </view>
+    <!-- 底部 放个联系 -->
+    <view class="foot"></view>
+</view>

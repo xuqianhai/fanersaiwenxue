@@ -1,0 +1,15 @@
+.main {
+    padding: 10rpx;
+    display: flex;
+}
+
+.list {
+    width: 100%;
+}
+
+.section_box image {
+    border-radius: 30rpx;
+    width: 100%;
+    margin-top: 10rpx;
+    height: 250rpx;
+}

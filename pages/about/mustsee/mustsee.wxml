@@ -1,0 +1,29 @@
+<!-- *auth：晚空
+    *QQ：1549072621 -->
+<view class="main">
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        使用帮助
+    </view>
+    <view class="line"></view>
+    <view class="c">我会在每个工具里单独设置一个帮助按钮，用来提供该工具的使用说明。</view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        工具失效？
+    </view>
+    <view class="line"></view>
+    <view class="c">工具对接的都是服务器，有时候接口会失效，我发现都会及时修复。如果长时间没修复可以进行反馈。</view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        最后一点
+    </view>
+    <view class="line"></view>
+    <view class="c">可以分享给同学，但是不要分享给老师啊，，不然你老师自己出题怎么办。。。</view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        最后最后一点
+    </view>
+    <view class="line"></view>
+    <view class="c">emmm，为了更好的用户体验。。。所以加了两个广告赚点服务器费用，应该不影响正常观看，见谅！</view>
+    <view class="footline"></view>
+</view>

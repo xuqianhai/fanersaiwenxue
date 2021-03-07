@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/about/aboutit/aboutit",
+    "pages/about/aboutme/aboutme",
+    "pages/about/mustsee/mustsee",
+    "pages/index/help/help",
+    "pages/tool/tool",
+    "pages/tz/tz"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#3CB371",
+    "navigationBarTitleText": "凡尔赛网课",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "搜题",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search_active.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "服务大厅",
+        "iconPath": "images/toolbox.png",
+        "selectedIconPath": "images/toolbox_active.png"
+      },
+      {
+        "pagePath": "pages/tz/tz",
+        "text": "更多资讯",
+        "iconPath": "images/zx.png",
+        "selectedIconPath": "images/zx1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_active.png"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

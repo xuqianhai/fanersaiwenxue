@@ -1,0 +1,72 @@
+<!-- *auth：晚空
+    *QQ：1549072621 -->
+<view class="main">
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        如何查题？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        1.在超星学习通/知到智慧树中复制题目。
+        <view class="lines"></view>
+        2.打开本程序会自动获取到复制的题目，点击确定就可以进行搜索了。
+        <view class="lines"></view>
+        3.或者您可以手动复制题目到输入框，然后点击搜索。
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        为什么显示的题目和我的题目不一样？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        因为本程序是自动匹配最相似的题目的，所以可能会出现显示不对的情况，您可以
+        <text class="red">减少符号的输入</text>
+        或
+        <text class="red">更换关键字</text>
+        再次进行搜索
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        怎么复制答案？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        对于选择题，你可以直接前往学习软件勾选。
+        <view class="lines"></view>
+        对于简答题，您可以点击对应问题，在弹出层的最底部有复制答案的按钮，点击即可自动复制，或者长按选择复制也可以
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        剪切板监控？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        现版本对剪切板监控加了开关按钮
+        <view class="lines"></view>
+        您可以前往
+        <text class="red">首页</text>
+        底部
+        <text class="red">关于</text>
+        点击
+        最后一栏 的
+        <text class="red">开启/关闭剪切板</text>
+        实现自定义开关剪切板
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        其他问题？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        还有其他问题可以前往
+        <text class="red">首页</text>
+        ——底部
+        <text class="red">关于</text>
+        ——
+        <text class="red">联系客服</text>
+        进行反馈
+    </view>
+    <view class="lines"></view>
+    <view class="lines"></view>
+    <view class="lines"></view>
+</view>

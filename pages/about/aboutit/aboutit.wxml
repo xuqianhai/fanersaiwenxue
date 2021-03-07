@@ -1,0 +1,33 @@
+<view class="main">
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        起因
+    </view>
+    <view class="line"></view>
+    <view class="c">全身心为大家服务！</view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        发展
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        电影，外卖优惠券，小说，满足大学生一切需求！
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        拓展
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        <rich-text>实现校内一体化架构</rich-text>
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        未来
+    </view>
+    <view class="line"></view>
+    <view class="c">等待时机，免费奉献</view>
+    <view class="line"></view>
+    <view class="c">© 2021 凡尔赛</view>
+    <view class="footline"></view>
+</view>

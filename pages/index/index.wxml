@@ -1,0 +1,77 @@
+<view class="body">
+    <mp-toptips msg="{{toptips}}" type="{{toptipstype}}" show="{{topicShow}}"></mp-toptips>
+    <view class="main transition {{searchdcss}}">
+        <!-- LOGO -->
+        <view class="logoBox">
+            <image class="logo" src="../../images/logo.png" mode="widthFix"></image>
+        </view>
+        <!-- 搜索框 -->
+        <view class="searchBox">
+            <!-- 问题输入框 -->
+            <view class="inputBox">
+                <input type="text" bindfocus="inputfocus" value="{{question}}" bindconfirm="search" bindinput="qinput" class="input" focus="{{true}}" placeholder="请输入您的问题" adjust-position="{{true}}" confirm-type="search" />
+            </view>
+            <!-- 语音识别 -->
+            <view class="ButtonBox" bindtap="getvoice">
+                <image src="../../images/voice.png"></image>
+            </view>
+            <!-- 拍照识别 -->
+            <view class="ButtonBox" bindtap="getphoto">
+                <image src="../../images/camera.png"></image>
+            </view>
+        </view>
+        <view class="helpBox weui-btn-area_inline btn-area">
+            <button bindtap="gohelp" class="weui-btn weui-btn_default" type="default">帮助</button>
+            <button bindtap="clearques" class="weui-btn btn-submit" type="default">清空</button>
+            <button bindtap="search" class="weui-btn btn-submit" type="primary">查询</button>
+        </view>
+        <view class="resultBox {{resfade}}" hidden="{{!showRes}}">
+            <view class="adBox" wx:if="{{showad}}" hidden="{{HiddenAd1}}">
+                <ad unit-id="{{ad1unit}}" binderror="ad1error" bindload="ad1load" bindclose="ad1close"></ad>
+            </view>
+            <view class="result">
+                <view class="restips">
+                    本次共搜索到
+                    <text class="red">{{reslen}}</text>
+                    个结果：
+                </view>
+                <view class="question" wx:for="{{res}}" wx:key="forearchkey" bindtap="GetDetail" data-question="{{item.question}}" data-answer="{{item.answer}}" data-more="{{item.more}}">
+                    {{index+1}}: {{item.question}}
+                </view>
+            </view>
+            <view class="adBox" wx:if="{{showad}}" hidden="{{HiddenAd2}}">
+                <ad unit-id="{{ad2unit}}" ad-type="grid" binderror="ad2error" bindload="ad2load" bindclose="ad2close" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+            </view>
+        </view>
+    </view>
+    <view wx:if="{{CoverisShow}}" class='cover'>
+        <!-- 可在此按需求自定义遮罩 -->
+        <view class='cover_child'>
+            <scroll-view class="scroll_view" scroll-y="true">
+                <view class="question">
+                    <text style="color:#a8e6cf">问题</text>
+                    ：
+                    <text user-select>{{nowquestion}}</text>
+                </view>
+                <view class="answer">
+                    <text style="color:#dcedc1">答案</text>
+                    ：
+                    <text user-select>{{nowanswer}}</text>
+                </view>
+                <view wx:if="{{nowmore!=''}}" class="more">
+                    <text style="color:#ffd3b6">解析/选项</text>
+                    ：
+                    <text user-select>{{nowmore}}</text>
+                </view>
+                <view class="helpBox weui-btn-area_inline btn-area">
+                    <button type="default" class="weui-btn weui-btn_default" bindtap="closecover">
+                        关闭
+                    </button>
+                    <button type="primary" class="weui-btn weui-btn_default" bindtap="copyanswer">
+                        复制答案
+                    </button>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>

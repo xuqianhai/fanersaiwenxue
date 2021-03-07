@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-toptips": "weui-miniprogram/toptips/toptips"
+  },
+  "navigationBarTitleText": "搜题助手",
+  "navigationBarBackgroundColor": "#a393eb",
+  "navigationBarTextStyle": "white"
+}
